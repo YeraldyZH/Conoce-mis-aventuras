@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Yeraldy Zetina">
+    <meta name="description" content="Mis Aventuras">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Yeraldy Zetina| Conoce mis aventuras</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/yeraldy.jfif">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/yeraldy1.jpeg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre viajes, anecdotas para recordar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">AVENTURAS CON MIS AMIGOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">MOMENTOS EN FAMILIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/yeraldy1.jpeg" alt="Foto de Yealdy Zetina">
+        <h1>Hola, soy Yeraldy Zetina</h1>
+       <h2>Me gustan mucho las aventuras</h2> 
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/foto 3.jpeg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce mis experiencias</h2>
+        <p class="seccion-texto">"No cuentes los días, haz que los días cuenten".</em></p>
+      </div>
+    </section>
+    <section id="videouno" class="videoprincipal">
+      <video src="imagenes/video 1.mp4" width="250" height="300" text-aligen="" autoplay controls>Mis mascotas</video>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Importancia de viajar</p>
+            <p>Ayuda a nuestro corazón, rejuvenece nuestro cerebro, impulsa las hormonas de la felicidad, nos causa bienestar y nos libera del estrés y mucho más.</p>
+            <p>Viajar permite cambiar la rutina diaria y mejora el estado de ánimo.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Felicidad</span>
+              <span class="badge text-bg-primary">Salud</span>
+              <span class="badge text-bg-primary">Enseñanzas</span>
+              <span class="badge text-bg-primary">Diversión</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Familia</p>
+            <p>La familia nos ayuda a formar nuestra personalidad, tomar decisiones, lograr estabilidad emocional, buscar nuevos horizontes.</p>
+            <p>Familia... donde comienza la vida y el amor nunca termina.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Respeto</span>
+              <span class="badge text-bg-primary">Protección</span>
+              <span class="badge text-bg-primary">Paz</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Amistad</p>
+            <p>Los amigos son nuestro sistema de apoyo: nos ayudan con cosas como la autoestima y las emociones, e incluso con la resolución de conflictos.</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Paz</span>
+              <span class="badge text-bg-primary">Felicidad</span>
+              <span class="badge text-bg-primary">Empatia</span>
+              <span class="badge text-bg-primary">Amor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">MIS AVENTURAS</h2>
+      <h3 class="seccion-descripcion">Aquí dejo algunas anecdotas de mi vida</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/foto 4.jpeg" alt="L1">
+              <p>En Tejupilco de Hidalgo el 15 y 16 de septiembre, tienen una bonita tradición de vestirse de apaches y hacer un peculiar baile con banda, conviviendo con la familia, vecinos, amigos, etc</p>
+              <div class="overlay">
+                <p>Desfile de la Independencia de México</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/foto 6.jpeg" alt="k1">
+                            <p>En noviembre del 2022 fui a mi primer concierto con mis amigos, en Cuernavaca, Morelos. 
+                            Fue una experiencia muy bonita, viajar y conocer a Kevin Karl, fue muy pesado el viaje de regreso ya que el autobús se descompuso y nos retrasamos como 2 horas más, sin duda alguna les recomiendo vivir este tipo de exériencias con tus amigos.  </p>
+              <div class="overlay">
+                <p>Concierto de Kevin Karl</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/foto 7.jpeg" alt="Proyecto 3">
+              <p> En mayo del 2023 tuvimos un viaje de estudios a Queretaro, fuimos a conocer el centro, un museo, las iglesias y su cultura, es un lugar muy bonito, en las noches hay mucha música en vivo, la gente se reune para bailar de todas las edades, tambien fuimos a ver el proceso para hacer vino, nos encontramos con una amiga de Arcelia y salimos, nos escapamos de los maestro y nos fuimos a una plaza que estaba a media hora de nuestro hotel. </p>
+              <div class="overlay">
+                <p>Viaje de estudios</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      <a href="https://m.facebook.com/yeraldy.zetina/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver mis redes sociales... 
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.habitatmexico.org/article/la-familia-como-base-de-la-sociedad" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              La familia como base de la sociedad 
+            </li>
+          </a>
+          <a href="https://theconversation.com/por-que-nos-hacemos-amigos-de-nuestros-amigos-185158" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Por qué nos hacemos amigos de nuestros amigos?
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Rostros de mis personas favoritas, siendo felices</h2>
+      <h3 class="seccion-descripcion">Aquí podrás ver algunos momentos donde fui feliz...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/campeonas.jpeg" alt="primero">
+              <p class="testimonio-texto">Felicidad en una foto</p>
+              <div class="testimonio-info">
+                <p class="cliente">CAMPEONAS</p>
+                <p class="cargo">Ganamos el tercer lugar a nivel estatal.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/pijamada.jpeg" alt="segundo">
+              <p class="testimonio-texto">Todo el amor en una foto</p>
+              <div class="testimonio-info">
+                <p class="cliente">Amigos</p>
+                <p class="cargo">Hicimos pijamada con mis amigos</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/acapulco.jpeg" alt="tercero">
+              <p class="testimonio-texto">Felicidad atraves de una foto </p>
+              <div class="testimonio-info">
+                <p class="cliente">VIAJE</p>
+                <p class="cargo">Fuimos de vacaciones a Acapulco en familia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Contactame y podemos compartir nuestras experiencias y así ser buenos amigos.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="zetinayeraldy0@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/logo.jpeg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Llena de tu vida de experiencias <br>Viajar es vivir.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> Adaptado por Yeraldy Zetina Hernández </div>
+      
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
